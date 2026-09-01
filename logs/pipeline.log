@@ -82,3 +82,6 @@
 {"ts": 1787510990.033, "level": "INFO", "msg": "asked: What is the difference between sync and ", "logger": "pipeline"}
 {"ts": 1787510990.134, "level": "INFO", "msg": "summary: {\"started_at\":1787510962.0020614,\"elapsed_seconds\":28.131685733795166,\"n_questions\":20,\"n_succeeded\":20,\"n_retries_total\":0,\"total_cost_usd\":0.0020000000000000005,\"fail_rate\":0.3,\"use_fake\":false}", "logger": "pipeline"}
 {"ts": 1787510990.387, "level": "INFO", "msg": "persisted run 11 with 20 answers to results.db", "logger": "pipeline"}
+{"ts": 1788285682.771, "level": "INFO", "msg": "asked: What is the lleave policy?", "logger": "pipeline"}
+{"ts": 1788286032.705, "level": "INFO", "msg": "asked: What is the lleave policy?", "logger": "pipeline"}
+{"ts": 1788286385.637, "level": "INFO", "msg": "asked: what are differeent types of leave avail", "logger": "pipeline"}

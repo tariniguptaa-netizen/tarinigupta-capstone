@@ -59,7 +59,7 @@ app = FastAPI(
 async def ask_batched(q: Question) -> Answer:
     """Non-streaming. Returns the full Answer in a single JSON body."""
     log.info("ask_batched  question=%r", q.question[:80])
-    pipeline_q = _PipelineQuestion(text=q.question)
+    pipeline_q = _PipelineQuestion(question=q.question)
     pipeline_ans = await _pipeline_ask_llm(pipeline_q)
     return Answer(
         content=pipeline_ans.text,

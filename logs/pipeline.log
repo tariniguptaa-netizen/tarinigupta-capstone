@@ -143,3 +143,6 @@
 {"ts": 1788680004.559, "level": "INFO", "msg": "asked: What is the WFH policy this quarter?", "logger": "pipeline"}
 {"ts": 1788680004.697, "level": "INFO", "msg": "asked: Who approves a new vendor?", "logger": "pipeline"}
 {"ts": 1788680005.173, "level": "INFO", "msg": "asked: How does the procurement approval proces", "logger": "pipeline"}
+{"ts": 1788803046.08, "level": "INFO", "msg": "asked: What is RAG?", "logger": "pipeline"}
+{"ts": 1788803046.083, "level": "WARNING", "msg": "retry 1 for: What is RAG? (simulated)", "logger": "pipeline"}
+{"ts": 1788803046.085, "level": "WARNING", "msg": "retry 2 for: What is RAG? (simulated)", "logger": "pipeline"}
